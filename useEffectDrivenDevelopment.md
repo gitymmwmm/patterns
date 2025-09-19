@@ -158,5 +158,7 @@ const [count, dispatch] = useReducer(reducer, 0);
 - [A Complete Guide to useEffect (Dan Abramov)](https://overreacted.io/a-complete-guide-to-useeffect/)
 - [TanStack Query](https://tanstack.com/query/latest)
 - [SWR](https://swr.vercel.app/)
+- [Mobx Reactions](https://mobx-cookbook.github.io/beware-reactions)
+- [Subscribers are notified in random order - Observer Pattern](https://refactoring.guru/design-patterns/observer)
 
 Коротко: `useEffect` — инструмент для синхронизации с внешним миром, а не для организации бизнес‑логики и вычислений. Чем меньше «эффектов ради вычислений», тем предсказуемее и проще ваш код.
